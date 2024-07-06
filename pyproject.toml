@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hashira-hub"
+version = "0.1.0"
+description = ""
+authors = ["Eve Nogueira"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.0.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.7.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

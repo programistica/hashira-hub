@@ -1,0 +1,8 @@
+repos:
+  - repo: local
+    hooks:
+      - id: update-env-sample
+        name: Update .env.sample
+        entry: poetry run python update_env_sample.py
+        language: system
+        files: ^\.env$
